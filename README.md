@@ -14,7 +14,7 @@ JobFinder is an AI-driven tool that analyzes resumes and matches them with relev
 
 **Keyword Optimization:** Suggests resume tweaks to improve job match scores.
 
-**Auto-Apply Functionality:** (Planned) Automates application submission for selected jobs.
+**Auto-Apply Functionality:** Automates application submission for selected jobs.
 
 **User-Friendly Interface:** Drag and drop your resume, get personalized job matches in seconds!
 
@@ -24,27 +24,24 @@ JobFinder is an AI-driven tool that analyzes resumes and matches them with relev
 
 Python 3.8+
 
-API keys: Gemini API, Indeed API
+API keys: Gemini API, Rapid API for Indeed 
 
 ## Steps
-1. Clone the repo:
-   git clone https://github.com/ShahHetanshi/Job_Finder.git
-   cd JobFinder
 
-3. Create a virtual environment:
-   python -m venv venv  
-   source venv/bin/activate
+1. Clone the repo:  
+   `git clone https://github.com/ShahHetanshi/Job_Finder.git`  
+   `cd JobFinder`
 
-4. Install dependencies:
-   pip install -r requirements.txt
+2. Install dependencies:
+   `pip install -r requirements.txt`
 
-5. Set up API keys in a .env file:
-   GEMINI_API_KEY=your_gemini_key  
-   RAPID_API_KEY=your_rapid_key  
+3. Set up API keys in a .env file:
+   `GEMINI_API_KEY=your_gemini_key `
+   `RAPID_API_KEY=your_rapid_key ` 
 
-6. Run the application:
-   npm run dev
-   python app.py
+4. Run the application:
+   `npm run dev`
+   `python app.py`
 
 ## 🔧 Usage
 
@@ -53,6 +50,7 @@ API keys: Gemini API, Indeed API
 **Get job recommendations** based on your skills and experience.
 
 **Apply with one click**.
+
 
 ## 📝 License
 
